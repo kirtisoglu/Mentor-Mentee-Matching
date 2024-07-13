@@ -20,9 +20,8 @@ pip install pulp pandas
 ```
 * The model is returned as output as a dictionary and pandas DataFrame containing scores with each mentor and matched mentee(s).
 
-## Schema of the CSV File
-To create an input file conforming to the schema used by the program,
-you should use the following format:
+## Data
+To create an input file conforming to the scheme used by the program, you should use a data frame with the following format.
 
 ### Columns for Students and Mentors
 *Name*<br>
@@ -32,7 +31,7 @@ The full name of the applicant
 Gender of the applicant
 
 *University*<br>
-The university of the student
+The University of the student
 
 *Department*<br>
 The department of the applicant
